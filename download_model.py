@@ -1,7 +1,7 @@
 import os
 from huggingface_hub import hf_hub_download
 
-REPO_ID = "larnejones94/thigh-sarcoma-segmentation"
+REPO_ID = "Larne/thigh-sarcoma-segmentation"
 FILENAME = "checkpoint_final.pth"
 
 dest = os.path.join(
